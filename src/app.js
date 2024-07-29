@@ -17,7 +17,6 @@ app.options("*", cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(loggerMiddleware);
-app.use(handleInvalidRoute);
 
 // Apply mongoSanitize middleware
 app.use(mongoSanitize());
@@ -36,6 +35,7 @@ app.get("/", (req, res) => {
   res.send("Boilerplate-BE");
 });
 
+app.use(handleInvalidRoute);
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {
   next(new ApiError(404, "Not found"));

@@ -1,0 +1,6 @@
+{"date":"2024-07-29T11:03:44.021Z","level":"error","message":"The Requested Route localhost/product/add-category Not Found","method":"POST","service":"user-service","url":"/product/add-category"}
+{"date":"2024-07-29T11:17:37.420Z","level":"error","message":"The Requested Route localhost/product/add-category Not Found","method":"GET","service":"user-service","url":"/product/add-category"}
+{"date":"2024-07-29T11:17:38.233Z","level":"error","message":"The Requested Route localhost/favicon.ico Not Found","method":"GET","service":"user-service","url":"/favicon.ico"}
+{"date":"2024-07-29T11:17:54.254Z","level":"error","message":"The Requested Route localhost/product/add-category Not Found","method":"GET","service":"user-service","url":"/product/add-category"}
+{"date":"2024-07-29T11:18:50.777Z","level":"error","message":"The Requested Route localhost/product/add-category Not Found","method":"GET","service":"user-service","url":"/product/add-category"}
+{"date":"2024-07-29T11:22:09.285Z","level":"error","message":"The Requested Route localhost/product/add-category Not Found","method":"GET","service":"user-service","url":"/product/add-category"}
